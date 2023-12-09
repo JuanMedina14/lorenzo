@@ -270,15 +270,16 @@ h3 {
 .regalos__boton {
   margin-top: 30px;
   padding: 10px 20px;
-  border: #ffc5f0 1px solid;
+  border: rgb(243, 113, 113) 1px solid;
   border-radius: 5px;
-  box-shadow: 2px 2px 2px #ffc5f0;
+  box-shadow: 2px 2px 2px rgb(243, 113, 113);
   transition: 0.5s;
 }
 
 .regalos__boton:hover {
-  background-color:  #ffc5f0;
+  background-color:  rgb(243, 113, 113);
   box-shadow: none;
+  color: #ffffff;
 }
 
 /* ::::::::::::::::::::: MODAL  :::::::::::::: */
@@ -465,6 +466,11 @@ form textarea:focus {
   padding: 10px;
   background-color: #000;
   color: #fff;
+}
+
+.footer a{
+  color: #fff;
+  text-decoration: none;
 }
 
 

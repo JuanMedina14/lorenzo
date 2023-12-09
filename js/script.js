@@ -6,7 +6,7 @@
       min = document.getElementById("min"),
       sec = document.getElementById("sec");
 
-      const evento = new Date("JANUARY 12, 2024 20:30:00") .getTime();
+      const evento = new Date("JANUARY 12, 2024 21:30:00") .getTime();
 
     setInterval(()=> {
         
